@@ -1,0 +1,15 @@
+code to print unqiue character in string:
+
+char=input()
+string=""
+duplicate=""
+new_string=""
+for i in char:
+    if i not in string:
+       string+=i
+    else:
+        duplicate+=i
+for i in string:
+    if i not in duplicate:
+        new_string+=i
+print (new_string)
